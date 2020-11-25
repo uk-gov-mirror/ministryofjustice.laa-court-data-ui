@@ -34,7 +34,7 @@ group :test do
   gem 'capybara'
   gem 'capybara_table'
   gem 'climate_control'
-  gem 'codeclimate-test-reporter', require: false
+  gem 'codeclimate-test-reporter', '>= 1.0.7', require: false
   gem 'fakeredis', require: 'fakeredis/rspec'
   gem 'i18n-tasks', '~> 0.9.31'
   gem 'launchy'
