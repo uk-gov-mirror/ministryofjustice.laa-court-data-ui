@@ -31,7 +31,7 @@ gem 'sidekiq', '~> 6.1'
 gem 'webpacker', '~> 5.2'
 
 group :test do
-  gem 'axe-core-rspec', '~> 4.1'
+  # gem 'axe-core-rspec', '~> 4.1'
   gem 'brakeman'
   gem 'capybara'
   gem 'capybara_table'
@@ -39,6 +39,7 @@ group :test do
   gem 'fakeredis', require: 'fakeredis/rspec'
   gem 'i18n-tasks', '~> 0.9.34'
   gem 'launchy'
+  gem 'mutant-rspec', '~> 0.10.27', require: false
   gem 'rails-controller-testing'
   gem 'rspec-html-matchers', '~> 0.9.4'
   gem 'rspec_junit_formatter'
