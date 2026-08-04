@@ -148,6 +148,7 @@ RSpec/ExampleLength:
   Exclude:
     - spec/features/**/*
     - spec/controllers/**/*
+    - spec/views/**/*
 
 RSpec/ImplicitSubject:
   Enabled: false
@@ -156,6 +157,7 @@ RSpec/MultipleExpectations:
   Exclude:
     - spec/features/**/*
     - spec/controllers/**/*
+    - spec/views/**/*
 
 RSpec/MultipleMemoizedHelpers:
   Max: 15
