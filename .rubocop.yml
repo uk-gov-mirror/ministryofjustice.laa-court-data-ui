@@ -65,7 +65,10 @@ Lint/StructNewOverride:
 Metrics/AbcSize:
   Exclude:
     - app/models/ability.rb
-    - spec/features/**/*.rb
+    - spec/features/**/*
+    - spec/controllers/**/*
+    - spec/views/**/*
+    - spec/support/**/*
   Max: 25
 
 Metrics/BlockLength:
@@ -149,6 +152,7 @@ RSpec/ExampleLength:
     - spec/features/**/*
     - spec/controllers/**/*
     - spec/views/**/*
+    - spec/support/**/*
 
 RSpec/ImplicitSubject:
   Enabled: false
@@ -158,6 +162,7 @@ RSpec/MultipleExpectations:
     - spec/features/**/*
     - spec/controllers/**/*
     - spec/views/**/*
+    - spec/support/**/*
 
 RSpec/MultipleMemoizedHelpers:
   Max: 15
