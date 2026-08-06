@@ -69,6 +69,7 @@ Metrics/AbcSize:
     - spec/controllers/**/*
     - spec/views/**/*
     - spec/support/**/*
+    - spec/helpers/**/*
   Max: 25
 
 Metrics/BlockLength:
@@ -153,6 +154,7 @@ RSpec/ExampleLength:
     - spec/controllers/**/*
     - spec/views/**/*
     - spec/support/**/*
+    - spec/helpers/**/*
 
 RSpec/ImplicitSubject:
   Enabled: false
@@ -163,6 +165,7 @@ RSpec/MultipleExpectations:
     - spec/controllers/**/*
     - spec/views/**/*
     - spec/support/**/*
+    - spec/helpers/**/*
 
 RSpec/MultipleMemoizedHelpers:
   Max: 15
