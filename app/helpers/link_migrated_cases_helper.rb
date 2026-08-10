@@ -53,6 +53,13 @@ module LinkMigratedCasesHelper
             target: "_blank", rel: "noopener")
   end
 
+  def case_urn_new_tab_url(case_urn)
+    link_to(case_urn,
+            prosecution_case_path(case_urn),
+            class: 'govuk-link govuk-link--no-visited-state',
+            target: '_blank', rel: 'noopener')
+  end
+
   def column_value(column, m_case)
     case column
     when "auto_linked_at" then handle_auto_linked_at(m_case)
