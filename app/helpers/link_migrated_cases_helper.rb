@@ -56,8 +56,8 @@ module LinkMigratedCasesHelper
   def case_urn_new_tab_url(case_urn)
     link_to(case_urn,
             prosecution_case_path(case_urn),
-            class: 'govuk-link govuk-link--no-visited-state',
-            target: '_blank', rel: 'noopener')
+            class: "govuk-link govuk-link--no-visited-state",
+            target: "_blank", rel: "noopener")
   end
 
   def column_value(column, m_case)
