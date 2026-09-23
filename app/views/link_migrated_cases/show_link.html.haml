@@ -28,7 +28,7 @@
           %th.govuk-table__header{ scope: "row" }
             = t(".case_urn")
           %td.govuk-table__cell
-            = @migrated_case.case_urn
+            = accessible_urn(@migrated_case.case_urn)
         %tr.govuk-table__row
           %th.govuk-table__header{ scope: "row" }
             = t(".arrest_summons_number")
