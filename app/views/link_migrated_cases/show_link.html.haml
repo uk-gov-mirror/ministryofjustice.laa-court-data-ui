@@ -28,12 +28,12 @@
           %th.govuk-table__header{ scope: "row" }
             = t(".case_urn")
           %td.govuk-table__cell
-            = accessible_urn(@migrated_case.case_urn)
+            = accessible_id(@migrated_case.case_urn)
         %tr.govuk-table__row
           %th.govuk-table__header{ scope: "row" }
             = t(".arrest_summons_number")
           %td.govuk-table__cell
-            = @defendant.arrest_summons_number
+            = accessible_id(@defendant.arrest_summons_number)
         %tr.govuk-table__row
           %th.govuk-table__header{ scope: "row" }
             = t(".nino")
