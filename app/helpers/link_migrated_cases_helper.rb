@@ -51,6 +51,7 @@ module LinkMigratedCasesHelper
     when "defendant_name" then handle_defendant_name(m_case)
     when "action" then handle_action(m_case)
     when "linked_at" then handle_linked_at(m_case)
+    when "maat_id" then accessible_id(m_case["maat_id"])
     when "reason_for_man_linking" then handle_reason_for_man_linking(m_case)
     else m_case[column]
     end
